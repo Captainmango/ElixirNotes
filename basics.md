@@ -1,6 +1,7 @@
 ## Elixir Basics
 
 > Repl.it playground [here](https://replit.com/@EdwardHeaver/LearningPlaygorund#main.exs)
+> Elixir school link [here](https://elixirschool.com/en/)
 
 If you want to play about in the shell, you can use iex, similarly to irb. ctrl + c is what gets you out
 
