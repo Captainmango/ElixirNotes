@@ -1,4 +1,5 @@
+greeting = "howdy"
 
-list = [1,2,3]
+say_hello = fn(^greeting, name) -> IO.puts "#{greeting} #{name}" end
 
-IO.inspect Enum.map(list, fn(num) -> num + 3 end)
+say_hello.("howdy", "Ed")
