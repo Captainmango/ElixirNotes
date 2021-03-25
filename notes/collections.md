@@ -71,6 +71,11 @@ It's common practise for tuples to be used to return addtional info from functio
 
 Keyword lists are an associative type in Elixir. That is, they can contain key value pairs and the values can be accessed by using the key. The key is always an atom. The keys are ordered and they do not have to be unique. A common use of these is to use keyword lists to pass options to functions.
 
+```bash
+iex> [foo: "bar", test: "123"]
+
+```
+
 
 ## Maps
 
