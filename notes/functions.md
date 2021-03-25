@@ -103,17 +103,13 @@ to handle default args in multiple places, we can define a function head. We can
 ```basb
 
 defmodule Test do
-  def print_name(name \\ "ed") 
-
-  def print_name(name) do
-    IO.puts(name) 
+  def test(first_arg, second_arg \\ 23)
+  def test(first_arg, second_arg) when is_number(first_arg) do
+    "this worked #{first_arg} #{second_arg}"
   end
 end
-
-a = fn() -> Test.print_name.() end
-IO.inspect a.()
 
 
 ```
 
-This for some reason is throwing a BadFunctionError. This is because of IO.puts. If I remove this then it will work as intended
+One thing to remember when calling this function is to pass the arguments in order. IO.puts can cause problems due to the return type being :ok. Watch out for that.
