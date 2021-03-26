@@ -2,7 +2,7 @@
 
 ## if and unless
 
-In Elixir, if and unless are macros and not language constructs. This means that they are calculated and are units of code that work in the background at the kernel level. We don't have to worry about what this means, other than that if statements work differently anf are more efficient than other languages.
+In Elixir, if and unless are macros and not language constructs. This means that they are calculated and are units of code that work in the background at the kernel level. We don't have to worry about what this means, other than that if statements work differently and are more efficient than other languages.
 
 Like Ruby, the only falsey values are nil and false.
 
@@ -54,7 +54,7 @@ iex> case {1, 2, 3} do
 
 ## cond
 
-This is much more familiar territory. Cond will match on condtions rather than values. Basically, if if statements ond case statements had a baby, these would be conds in Elixir.
+This is much more familiar territory. Cond will match on condtions rather than values. Basically, if if statements and case statements had a baby, these would be conds in Elixir.
 
 ```bash
 

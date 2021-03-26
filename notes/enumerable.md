@@ -69,6 +69,13 @@ Same as Ruby each. Doesn't return a new array and carries out the provided funct
 
 Same as Ruby map. Returns a new enum once execution is done.
 
+```bash
+
+enum = [:ok, "test"]
+IO.inspect Enum.map(enum, fn(item) -> item end)
+
+```
+
 
 ### min
 

@@ -24,7 +24,7 @@ IO.inspect list // => [2,3,4]
 
 ```
 
-As matching is done with a single equals, accidentla assignment can happen. The way to stop this is with the pin operator ^
+As matching is done with a single equals, accidental assignment can happen. The way to stop this is with the pin operator ^
 
 ```bash
 

@@ -2,7 +2,7 @@
 
 ## Lists
 
-In Elixir, square brackets denote a linked list NOT an array. Normal linked list rules apply here and in Elixir they can contain multuple types of data.
+In Elixir, square brackets denote a linked list NOT an array. Normal linked list rules apply here and in Elixir they can contain multiple types of data.
 
 ```bash
 
@@ -99,7 +99,7 @@ iex> %{my_map | foo: "bizz" } // => %{:foo => "bizz"}
 
 ```
 
-if the key isn't present in the map, this will through a key error rather than adding the key so be careful. To add a new key value pair to an existing map, use the put method. See below:
+if the key isn't present in the map, this will throw a key error rather than adding the key so be careful. To add a new key value pair to an existing map, use the put method. See below:
 
 ```bash
 
