@@ -60,7 +60,7 @@ Tuples are like lists but are stored contiguously, like arrays in other language
 
 ```bash
 
-iex> my_array = {1,2,3}
+iex> my_tuples = {1,2,3}
 
 ```
 

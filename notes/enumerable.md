@@ -99,7 +99,7 @@ iex> Enum.max([1,2,3,4]) // => 4
 
 ### filter
 
-Same as Ruby select. Can supply a function to select items to keep in new collection. This does mutate the origina collection
+Same as Ruby select. Can supply a function to select items to keep in new collection. This does mutate the original collection
 
 ```bash
 

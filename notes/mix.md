@@ -53,7 +53,7 @@ end
 
 Some bits of this are very obvious, others not so much. Project is where we define the name of the app this needs to be an atom. version and elixir are the versions of the app and elixir. Start-perm is the way to start the app correctly and the deps are dependencies for the prod env.
 
-Def application is for when the app is run and will run other applications that are needed like the logger in the above example and the defp deps is the dev dependencies only.
+Def application is for when the app is run and will run other applications that are needed like the logger in the above example and the defp deps is the dependencies.
 
 
 ### interactive

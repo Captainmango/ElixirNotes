@@ -93,7 +93,7 @@ iex> %Example.User{name: "Steve", roles: [:manager]}
 
 ```
 
-What is happening here is that the struct is showing us the shape of any Example.User capture. We can then create new maps of the shape of the struct by using the module name as above. These functionally work in the same was as classes in other languages. There isn't really need for vanilla getters either as dot notation for accessing works just fine. But, we can do this really simply by using a named function and passing in a filler argument. Best practice is to use this, but anything will work.
+What is happening here is that the struct is showing us the shape of any Example.User capture. We can then create new maps of the shape of the struct by using the module name as above. These functionally work in the same was as classes in other languages. There isn't really need for vanilla getters either as dot notation for accessing works just fine. But, we can do this really simply by using a named function and passing in a filler argument. Best practice is to use __this__, but anything will work.
 
 
 ```bash
@@ -174,7 +174,7 @@ iex> last([1, 2, 3]) // => 3
 
 ```
 
-This means we can keep our compiled sizes small by only grabing functions we actually want in our code. We can also use the except: syntaxt to exclude functions in exactly the same way as above.
+This means we can keep our compiled sizes small by only grabing functions we actually want in our code. We can also use the except: syntax to exclude functions in exactly the same way as above.
 
 There are also atoms that exist to import macros of functions only. These are :macros and :functions respectively.
 
@@ -187,7 +187,7 @@ require works the exact same way as import, but only does this for macros. If we
 
 ### use
 
-Now this is pod racing. Use is like super() in the OO world. It update the definition of the module with the thing that is passed to it. What is actually happeneing is that the module is writing a new definition via a macro. See below:
+Now this is pod racing. Use is like super() in the OO world. It updates the definition of the module with the thing that is passed to it. What is actually happeneing is that the module is writing a new definition via a macro. See below:
 
 
 ```bash

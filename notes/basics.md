@@ -31,7 +31,7 @@ the basic operations look like this:
 
 2 * 2 // => 4
 
-2 / 2 // => 1
+2 / 2 // => 1.0
 
 
 ### Booleans
